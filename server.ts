@@ -17,7 +17,7 @@ app.get('/robots.txt', (req, res) => {
     res.setHeader('Content-Type', 'text/plain');
     res.sendFile(robotsPath);
   } else {
-    res.type('text/plain').send("User-agent: *\nAllow: /\nSitemap: https://thecoffeejournal.vercel.app/sitemap.xml\n");
+    res.type('text/plain').send("User-agent: *\nAllow: /\nSitemap: https://coffee-blog-gamma.vercel.app/sitemap.xml\n");
   }
 });
 

@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://thecoffeejournal.vercel.app/sitemap.xml
+Sitemap: https://coffee-blog-gamma.vercel.app/sitemap.xml

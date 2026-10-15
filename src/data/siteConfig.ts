@@ -5,7 +5,7 @@ export const SITE_CONFIG = {
   // Production domain: Replace with your actual Vercel domain upon deployment
   siteUrl: typeof window !== 'undefined' && window.location.origin 
     ? window.location.origin 
-    : 'https://thecoffeejournal.vercel.app',
+    : 'https://coffee-blog-gamma.vercel.app',
   defaultAuthor: {
     name: 'Julian Vance',
     role: 'Head Coffee Educator & Q-Grader Apprentice',
