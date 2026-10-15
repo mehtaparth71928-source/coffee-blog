@@ -2,10 +2,8 @@ export const SITE_CONFIG = {
   name: 'The Coffee Journal',
   tagline: 'Artisanal Coffee Culture, Home Brewing Guides & Bean Science',
   description: 'Your definitive coffee education resource for college students, home baristas, and coffee enthusiasts. Master cold coffee, espresso, bean selection, and manual brewing.',
-  // Production domain: Replace with your actual Vercel domain upon deployment
-  siteUrl: typeof window !== 'undefined' && window.location.origin 
-    ? window.location.origin 
-    : 'https://coffee-blog-gamma.vercel.app',
+  // Production canonical domain
+  siteUrl: 'https://coffee-blog-gamma.vercel.app',
   defaultAuthor: {
     name: 'Julian Vance',
     role: 'Head Coffee Educator & Q-Grader Apprentice',
