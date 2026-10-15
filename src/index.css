@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Fraunces', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF7F2;
+    color: #2D1E18;
+    line-height: 1.65;
+  }
+
+  h1, h2, h3, h4, .font-editorial {
+    font-family: var(--font-serif);
+    letter-spacing: -0.015em;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4C5B9;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B39C88;
+}
+
+/* Prose formatting for SEO crawlable articles */
+.article-prose {
+  color: #372A23;
+  font-size: 1.125rem;
+  line-height: 1.85;
+}
+
+.article-prose p {
+  margin-bottom: 1.5rem;
+}
+
+.article-prose strong {
+  color: #1A120E;
+  font-weight: 600;
+}
+
+.article-prose a {
+  color: #8C5332;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+}
+
+.article-prose a:hover {
+  color: #5C321B;
+}

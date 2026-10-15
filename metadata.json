@@ -1,0 +1,6 @@
+{
+  "name": "The Coffee Journal - Coffee Brewing & Guides",
+  "description": "An SEO-optimized coffee culture and brewing blog with expert guides on cold brew, espresso, bean varieties, and home barista recipes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
